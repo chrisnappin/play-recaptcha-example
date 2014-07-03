@@ -1,0 +1,27 @@
+# Messages for the default language
+website.header=My Web Site
+website.footer=Google Recaptcha Example
+
+exampleForm.title=Example Form
+exampleForm.description=Here is a form containing some example data fields, plus a recaptcha test.
+exampleForm.submit=Register
+
+# form labels
+username=Username:
+email=Email Address:
+agree=I agree to the Terms and Conditions:
+captcha=Please complete the following captcha:
+
+# standard error messages
+error.required=Please complete this field
+error.email=Please enter a valid email address
+
+# customised info texts for play form helpers
+constraint.required=* Required
+constraint.email=
+format.boolean=
+
+# uncomment these to customise the error messages (defaults are shown below)
+#error.captchaIncorrect=Incorrect, please try again
+#error.recaptchaNotReachable=Unable to contact Recaptcha
+#error.apiError=Invalid response from Recaptcha

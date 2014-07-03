@@ -1,0 +1,14 @@
+@()(implicit flash: Flash, lang: Lang)
+
+@main("Success") {
+
+    <h1>User Registered</h1>
+
+    <p>If we had a database, the user's registration would have probably been saved at this point.</p>
+    
+    @if(flash.get("save.message").isDefined) {
+        <p>@flash.get("save.message")</p>   
+    }
+    
+    <a href="@routes.Index.index()">Home</a>
+}
