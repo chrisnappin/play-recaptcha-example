@@ -7,11 +7,11 @@
     
     @helper.form(action = routes.ExampleForm.submitForm()) {
         
-        @helper.inputText(userForm("username"))
-        @helper.inputText(userForm("email"))
-        @helper.checkbox(userForm("agree"))
-        @recaptcha.recaptchaField(userForm, "captcha")
+        @helper.inputText(userForm("username"), 'tabindex -> 1)
+        @helper.inputText(userForm("email"), 'tabindex -> 2)
+        @helper.checkbox(userForm("agree"), 'tabindex -> 3)
+        @recaptcha.recaptchaField(form = userForm, fieldName = "captcha", tabindex = Some(4))
         
-        <button type="submit">@Messages("exampleForm.submit")</button>
+        <button type="submit" tabindex="5">@Messages("exampleForm.submit")</button>
     }
 }
