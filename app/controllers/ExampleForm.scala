@@ -37,7 +37,7 @@ object ExampleForm extends Controller {
             "agree" -> boolean
 	    )(UserRegistration.apply)(UserRegistration.unapply))
 	    
-    def show = Action {
+    def show = Action { implicit request =>
         Ok(views.html.form(userForm))
     }
     
