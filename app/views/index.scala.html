@@ -1,8 +1,8 @@
-@()
+@()(implicit lang: Lang)
 
-@main("Recaptcha Example") {
+@main(Messages("index.title")) {
 
-    <h1>Google Recaptcha Integration</h1>
-    <p><a href="@routes.ExampleForm.show()">Example form</a> using recaptcha.</p>
+    <h1>@Messages("index.title")</h1>
+    <p><a href="@routes.ExampleForm.show()">@Messages("index.link")</a> @Messages("index.suffix")</p>
     <p>&nbsp;</p>
 }

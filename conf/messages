@@ -2,6 +2,10 @@
 website.header=My Web Site
 website.footer=Google Recaptcha Example
 
+index.title=Google Recaptcha Integration
+index.link=Example form
+index.suffix=using recaptcha.
+
 exampleForm.title=Example Form
 exampleForm.description=Here is a form containing some example data fields, plus a recaptcha test.
 exampleForm.submit=Register
@@ -20,6 +24,10 @@ error.email=Please enter a valid email address
 constraint.required=* Required
 constraint.email=
 format.boolean=
+
+result.title=User Registered
+result.feedback=If we had a database, the user's registration would have probably been saved at this point.
+result.home=Home
 
 # uncomment these to customise the error messages (defaults are shown below)
 #error.captchaIncorrect=Incorrect, please try again

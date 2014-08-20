@@ -20,8 +20,13 @@ import play.api.mvc._
 
 object Index extends Controller {
 
-    def index = Action {
-        Ok(views.html.index())
+    val logger: Logger = Logger(this.getClass())
+    
+    def index = Action { implicit request => {
+            logger.debug("accept languages are: " + request.acceptLanguages)
+            
+            Ok(views.html.index())
+        }
     }
 
 }
