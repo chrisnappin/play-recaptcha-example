@@ -3,7 +3,7 @@ name := "recaptcha-example"
 version := "1.0"    
 
 libraryDependencies ++= Seq(
-  "com.nappin" %% "play-recaptcha" % "0.9-SNAPSHOT" 
+  "com.nappin" %% "play-recaptcha" % "0.9" 
 )
 
 scalaVersion := "2.10.4"
