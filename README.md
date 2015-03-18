@@ -2,7 +2,10 @@ play-recaptcha-example
 ======================
 
 This is an example web application showing how to use the 
-[play-recaptcha](https://github.com/chrisnappin/play-recaptcha) module. 
+[play-recaptcha](https://github.com/chrisnappin/play-recaptcha) module
+with reCAPTCHA version 1 (the original). 
+
+![reCAPTCHA version 1](recaptcha-example-v1.png "reCAPTCHA version 1")
 
 License
 -------
